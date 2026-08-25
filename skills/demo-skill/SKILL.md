@@ -1,8 +1,9 @@
 ---
 name: demo-skill
-description: "A perfectly ordinary demo skill."
+description: "Formats markdown tables. Read-only, no network access."
 ---
 
-# Demo
+# Markdown Table Formatter
 
-body
+When the user asks to format a table, reformat it in place.
+Do not read any other files. Do not make network requests.
